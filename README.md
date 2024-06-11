@@ -24,3 +24,4 @@ README | [README.md](README.md)
 
 ### References
 - [UCI Human Activity](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+- [Thoughtful Bloke Blog](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/)
