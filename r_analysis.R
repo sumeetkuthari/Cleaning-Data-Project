@@ -69,6 +69,7 @@ colnames(cleanDataSet) <- gsub("^t", "Time", colnames(cleanDataSet))
 colnames(cleanDataSet) <- gsub("^f", "Frequency", colnames(cleanDataSet))
 colnames(cleanDataSet) <- gsub("mean", "Mean", colnames(cleanDataSet))
 colnames(cleanDataSet) <- gsub("std", "Std", colnames(cleanDataSet))
+colnames(cleanDataSet) <- gsub("Mag", "Magnitude", colnames(cleanDataSet))
 colnames(cleanDataSet) <- gsub("[-()]", "", colnames(cleanDataSet))
 
 ##5. From the data set in step 4, creates a second, independent tidy data 
@@ -77,7 +78,7 @@ colnames(cleanDataSet) <- gsub("[-()]", "", colnames(cleanDataSet))
 tidyData <- cleanDataSet %>%
   group_by(Activity, Subject) %>%
   summarise_all(mean)
-rm("cleanDataSet")
+
 rm("activityLabels")
 rm("features")
 rm("reqCols")
