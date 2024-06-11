@@ -17,5 +17,10 @@ README | [README.md](README.md)
 4. The README that explains the analysis files is clear and understandable.
 5. The work submitted for this project is the work of the student who submitted it.
 
+### Running the Script
+1. Download the data from the link provided in the reference section.
+2. Extract the data to the working directory.
+3. Run the script `run_analysis.R` in RStudio. This script will create the tidy data set in the `tidy_data.txt` file.
+
 ### References
 - [UCI Human Activity](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
